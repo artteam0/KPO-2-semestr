@@ -1,0 +1,39 @@
+﻿Сборка начата 24.02.2024 12:30:52.
+Уровень детализации журнала: Normal.     1>Проект "D:\уник\2 сем\КПО\lab01 г\lab01\lab01\lab01.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "x64\Debug\lab01.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.38.32919\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Yu"stdafx.h" /Fp"x64\Debug\lab01.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt lab01.cpp qq.cpp qq2.cpp qq3.cpp qq4.cpp qq5.cpp qq6.cpp
+         lab01.cpp
+     1>D:\уник\2 сем\КПО\lab01 г\lab01\lab01\lab01.cpp(208,10): fatal  error C1083: Не удается открыть файл предкомпилированный заголовок: x64\Debug\lab01.pch: No such file or directory,
+         qq.cpp
+     1>D:\уник\2 сем\КПО\lab01 г\lab01\lab01\qq.cpp(1,10): fatal  error C1083: Не удается открыть файл предкомпилированный заголовок: x64\Debug\lab01.pch: No such file or directory,
+         qq2.cpp
+     1>D:\уник\2 сем\КПО\lab01 г\lab01\lab01\qq2.cpp(1,10): fatal  error C1083: Не удается открыть файл предкомпилированный заголовок: x64\Debug\lab01.pch: No such file or directory,
+         qq3.cpp
+     1>D:\уник\2 сем\КПО\lab01 г\lab01\lab01\qq3.cpp(1,10): fatal  error C1083: Не удается открыть файл предкомпилированный заголовок: x64\Debug\lab01.pch: No such file or directory,
+         qq4.cpp
+     1>D:\уник\2 сем\КПО\lab01 г\lab01\lab01\qq4.cpp(1,10): fatal  error C1083: Не удается открыть файл предкомпилированный заголовок: x64\Debug\lab01.pch: No such file or directory,
+         qq5.cpp
+     1>D:\уник\2 сем\КПО\lab01 г\lab01\lab01\qq5.cpp(1,10): fatal  error C1083: Не удается открыть файл предкомпилированный заголовок: x64\Debug\lab01.pch: No such file or directory,
+         qq6.cpp
+     1>D:\уник\2 сем\КПО\lab01 г\lab01\lab01\qq6.cpp(1,10): fatal  error C1083: Не удается открыть файл предкомпилированный заголовок: x64\Debug\lab01.pch: No such file or directory,
+         Создание кода...
+     1>Сборка проекта "D:\уник\2 сем\КПО\lab01 г\lab01\lab01\lab01.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\уник\2 сем\КПО\lab01 г\lab01\lab01\lab01.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\уник\2 сем\КПО\lab01 г\lab01\lab01\lab01.cpp(208,10): fatal  error C1083: Не удается открыть файл предкомпилированный заголовок: x64\Debug\lab01.pch: No such file or directory,
+         D:\уник\2 сем\КПО\lab01 г\lab01\lab01\qq.cpp(1,10): fatal  error C1083: Не удается открыть файл предкомпилированный заголовок: x64\Debug\lab01.pch: No such file or directory,
+         D:\уник\2 сем\КПО\lab01 г\lab01\lab01\qq2.cpp(1,10): fatal  error C1083: Не удается открыть файл предкомпилированный заголовок: x64\Debug\lab01.pch: No such file or directory,
+         D:\уник\2 сем\КПО\lab01 г\lab01\lab01\qq3.cpp(1,10): fatal  error C1083: Не удается открыть файл предкомпилированный заголовок: x64\Debug\lab01.pch: No such file or directory,
+         D:\уник\2 сем\КПО\lab01 г\lab01\lab01\qq4.cpp(1,10): fatal  error C1083: Не удается открыть файл предкомпилированный заголовок: x64\Debug\lab01.pch: No such file or directory,
+         D:\уник\2 сем\КПО\lab01 г\lab01\lab01\qq5.cpp(1,10): fatal  error C1083: Не удается открыть файл предкомпилированный заголовок: x64\Debug\lab01.pch: No such file or directory,
+         D:\уник\2 сем\КПО\lab01 г\lab01\lab01\qq6.cpp(1,10): fatal  error C1083: Не удается открыть файл предкомпилированный заголовок: x64\Debug\lab01.pch: No such file or directory,
+
+    Предупреждений: 0
+    Ошибок: 7
+
+Прошло времени 00:00:00.43
