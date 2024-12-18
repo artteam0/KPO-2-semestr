@@ -1,0 +1,23 @@
+﻿Сборка начата 19.04.2024 10:43:06.
+Уровень детализации журнала: Normal.     1>Проект "D:\уник\2 сем\КПО\lab07\SE_Lab07\SE_Lab07\SE_Lab07.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "x64\Debug\SE_Lab07.tlog\unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.38.32919\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\уник\2 сем\КПО\lab07\SE_Lab07\x64\Debug\SE_Lab07.exe" /INCREMENTAL /ILK:"x64\Debug\SE_Lab07.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\уник\2 сем\КПО\lab07\SE_Lab07\x64\Debug\SE_Lab07.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\уник\2 сем\КПО\lab07\SE_Lab07\x64\Debug\SE_Lab07.lib" /MACHINE:X64 x64\Debug\Call.obj
+     1>Call.obj : error LNK2019: ссылка на неразрешенный внешний символ "int __cdecl Call::cdeclCall(int,int,int)" (?cdeclCall@Call@@YAHHHH@Z) в функции main.
+     1>D:\уник\2 сем\КПО\lab07\SE_Lab07\x64\Debug\SE_Lab07.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
+     1>Сборка проекта "D:\уник\2 сем\КПО\lab07\SE_Lab07\SE_Lab07\SE_Lab07.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\уник\2 сем\КПО\lab07\SE_Lab07\SE_Lab07\SE_Lab07.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект Link) -> 
+         Call.obj : error LNK2019: ссылка на неразрешенный внешний символ "int __cdecl Call::cdeclCall(int,int,int)" (?cdeclCall@Call@@YAHHHH@Z) в функции main.
+         D:\уник\2 сем\КПО\lab07\SE_Lab07\x64\Debug\SE_Lab07.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
+
+    Предупреждений: 0
+    Ошибок: 2
+
+Прошло времени 00:00:00.10
