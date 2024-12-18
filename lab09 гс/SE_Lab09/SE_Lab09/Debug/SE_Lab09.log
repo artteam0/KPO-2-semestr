@@ -1,0 +1,28 @@
+﻿Сборка начата 30.04.2024 17:03:50.
+Уровень детализации журнала: Normal.     1>Проект "D:\уник\2 сем\КПО\lab09\SE_Lab09\SE_Lab09\SE_Lab09.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\SE_Lab09.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\SE_Lab09.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.38.32919\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Varparm.cpp
+         Varparm.cpp
+     1>D:\уник\2 сем\КПО\lab09\SE_Lab09\SE_Lab09\Varparm.cpp(53,16): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.38.32919\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\уник\2 сем\КПО\lab09\SE_Lab09\Debug\SE_Lab09.exe" /INCREMENTAL /ILK:"Debug\SE_Lab09.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\уник\2 сем\КПО\lab09\SE_Lab09\Debug\SE_Lab09.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\уник\2 сем\КПО\lab09\SE_Lab09\Debug\SE_Lab09.lib" /MACHINE:X86 Debug\SE_Lab09.obj
+         Debug\Varparm.obj
+         SE_Lab09.vcxproj -> D:\уник\2 сем\КПО\lab09\SE_Lab09\Debug\SE_Lab09.exe
+       FinalizeBuildStatus:
+         Файл "Debug\SE_Lab09.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\SE_Lab09.tlog\SE_Lab09.lastbuildstate".
+     1>Сборка проекта "D:\уник\2 сем\КПО\lab09\SE_Lab09\SE_Lab09\SE_Lab09.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\уник\2 сем\КПО\lab09\SE_Lab09\SE_Lab09\SE_Lab09.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\уник\2 сем\КПО\lab09\SE_Lab09\SE_Lab09\Varparm.cpp(53,16): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:00.97
